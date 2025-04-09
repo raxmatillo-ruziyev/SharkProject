@@ -12,6 +12,8 @@ function App() {
   <Header/>
   <Hero/>
   <Trading/>
+
+  
  
      
     </>

@@ -4,7 +4,7 @@
 
 @layer Components {
     .main-container {
-        @apply mx-auto max-w-[1200px] border-white border-[1px];
+        @apply mx-auto max-w-[1200px] border-[red] border-[1px];
     }
 }
 @theme {
