@@ -1,4 +1,4 @@
-import { Header, Hero, Navbar, Trading } from "./Components"
+import { Header, Hero, Navbar, Services, Trading } from "./Components"
 
 
 
@@ -12,6 +12,8 @@ function App() {
   <Header/>
   <Hero/>
   <Trading/>
+  <Services/>
+
 
   
  
