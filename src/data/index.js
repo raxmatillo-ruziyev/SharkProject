@@ -15,7 +15,7 @@ export const tradingCards = [
   {
     id: uuidv4(),
     title: "Licence and regulation",
-    text: "XM  is  a  multi - regulated and licensed broker. Your  security is our priority follow,team",
+    text: "XM  is  a  multi - regulated and licensed broker. Your  security is our and or year since priority follow,team",
     img: cardone,
   },
   {
@@ -27,25 +27,25 @@ export const tradingCards = [
   {
     id: uuidv4(),
     title: "10 Years in Industry",
-    text: "You're in good hands with XM. We've been serving clients in 190 countries, since 2009.",
+    text: "You're in good hands with XM. We've been serving clients in the 190 countries, since 2009 year.",
     img: cardthree,
   },
   {
     id: uuidv4(),
     title: "Cutting-edge technology",
-    text: "Enhance your experience with advanced,  user-friendly platforms, on all your devices.",
+    text: "Enhance your experience with advanced, use or and  user-friendly platforms, on all your devices.",
     img: cardfour,
   },
   {
     id: uuidv4(),
     title: "Fast registration",
-    text: "Open an account within minutes, thanks  to our fast processes and helpful team.",
+    text: "Open an account within minutes,main wud was were thanks  to our fast processes and helpful team.",
     img: cardfive,
   },
   {
     id: uuidv4(),
     title: "Trust in paymenmt",
-    text: "Use global and local payment methods and enjoy fast deposits and withdrawals.",
+    text: "Use global and local payment methods to be again and enjoy fast deposits and withdrawals.",
     img: cardsix,
   },
 ];
