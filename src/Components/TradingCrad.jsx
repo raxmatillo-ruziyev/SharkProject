@@ -11,7 +11,13 @@ const TradingCrad = () => {
 
             <h2 className='text-white text-[40px] max-[1127px]:text-[50px] max-[897px]:text-[38px] max-[540px]:text-[32px] max-[450px]:text-[28px] max-[399px]:text-[24px]  max-[349px]:text-[20px] max-[655px]:text-[35px] text-center mx-auto max-[655px]:w-[85%] max-[498px]:w-[95%]  w-[75%]' >{item.title}</h2>
             <p className='text-white text-[16px]  max-[1127px]:text-[18px] max-[897px]:text-[15px] mb-3 w-[82%] mx-auto max-[450px]:text-[14px]  max-[349px]:text-[12px]'>{item.text}</p>
-            <img className='mx-auto w-[120px] h-[130px]  max-[745px]:h-[120px] max-[610px]:h-[110px] max-[510px]:h-[100px] ' src={item.img} alt="" loading='lazy' />
+            <img
+              className='mx-auto w-[120px] h-[130px] max-[745px]:h-[120px] max-[610px]:h-[110px] max-[510px]:h-[100px] blur-sm hover:blur-none transition duration-300'
+              src={item.img}
+              alt=""
+              loading='lazy'
+            />
+
           </div>
         ))
       }
