@@ -7,7 +7,7 @@ const Services = () => {
     <>
     <img src={bgservice} alt="" className='-z-10    absolute left-0 right-0  w-full h-full object-cover ' />
     <img src={bgservices} alt="" className='-z-11 absolute left-0 right-0 w-full h-full object-cover' />
-    <div className='main-container p-1.5'>
+    <div className='main-container  max-[700px]:py-0 py-15'>
       <h2 className="text-[48px]  mt-15  w-[67%] max-[996px]:w-[70%]  max-[896px]:w-[100%]  max-[896px]:text-center  max-[996px]:text-[46px]  max-[875px]:text-[44px] max-[632px]:text-[40px] max-[573px]:text-[35px] max-[536px]:text-[30px] max-[50px]:text-[27px] font-bold bg-linear-to-r/srgb from-indigo-100 to-teal-200 bg-clip-text text-transparent">Our Services</h2>
       <p className='text-[15px] text-white w-[46%] max-[1180px]:w-[57%] max-[897px]:w-[80%]  max-[896px]:text-center  max-[631px]:w-[85%] max-[875px]:text-[19px]  max-[632px]:text-[17px]  max-[574px]:text-[16px] max-[536px]:text-[15px]  max-[500px]:text-[14px] max-[831px]:w-[82%] max-[897px]:mx-auto py-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
       incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>

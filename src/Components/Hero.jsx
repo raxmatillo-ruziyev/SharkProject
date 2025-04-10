@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <>
 
-            <div className='main-container text-white items-center h-150 max-[900px]:h-120 max-[573px]:h-110  px-1.5   max-[897px]:text-center '>
+            <div className='main-container text-white items-center h-150 max-[900px]:h-120 max-[573px]:h-110  px-1.5  max-[700px]:py-0 py-15   max-[897px]:text-center '>
                 <img src={bghero} alt="" className='-z-10 absolute left-0 right-0  w-full ' />
                 <img src={bgheader} alt="" className='-z-11 absolute left-0 right-0 w-full h-full object-cover' />
 

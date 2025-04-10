@@ -13,3 +13,10 @@ export { default as cardthree } from './Images/card-three.svg';
 export { default as cardfour } from './Images/card-four.svg';
 export { default as cardfive } from './Images/card-five.svg';
 export{ default as cardsix} from './Images/card-six.svg'
+export { default as marketone } from './Images/market-one.png';
+export { default as markettwo } from './Images/market-two.png';
+export { default as marketthree } from './Images/market-three.png';
+export { default as bgmarket } from './Images/bg-market.png';
+export { default as financeone} from './Images/finance-one.png'
+export { default as financetwo} from './Images/finance-two.png'
+export { default as financethree} from './Images/finance-three.png'

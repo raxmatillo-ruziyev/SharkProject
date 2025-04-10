@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import { cardfive, cardfour, cardone, cardthree, cardsix} from "../assets";
+import { cardfive, cardfour, cardone, cardthree, cardsix, marketone, markettwo, marketthree, financeone, financetwo, financethree } from "../assets";
 
 // Navbar
 export const navbarData = [
@@ -11,7 +11,7 @@ export const navbarData = [
 ];
 // Card 
 export const tradingCards = [
-  
+
   {
     id: uuidv4(),
     title: "Licence and regulation",
@@ -49,3 +49,41 @@ export const tradingCards = [
     img: cardsix,
   },
 ];
+
+export const marketCards = [
+  {
+    id: uuidv4(),
+    title: "Seamless Support",
+    text: "Our trading, engineering and compliance speialialists offer complete support,advice and solutions.",
+    img: marketone,
+  },
+  {
+    id: uuidv4(),
+    title: "Ont-time Execution",
+    text: "Our trading, engineering and compliance speialialists offer complete support,advice and solutions.",
+    img: markettwo,
+  },
+  {
+    id: uuidv4(),
+    title: "Market Analysis",
+    text: "Our trading, engineering and compliance speialialists offer complete support, advice and solutions.",
+    img: marketthree,
+  }
+];
+export const financeCards = [
+  {
+    id: uuidv4(),
+    title: "Seamless Support",
+    img: financeone,
+  },
+  {
+    id: uuidv4(),
+    title: "Investments numbers",
+    img: financetwo,
+  },
+  {
+    id: uuidv4(),
+    title: "Seamless Support",
+    img: financethree,
+  }
+]
