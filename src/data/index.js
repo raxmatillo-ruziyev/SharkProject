@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import { cardfive, cardfour, cardone, cardthree, cardsix, marketone, markettwo, marketthree, financeone, financetwo, financethree } from "../assets";
+import { cardfive, cardfour, cardone, cardthree, cardsix, marketone, markettwo, marketthree, financeone, financetwo, financethree, logo, linkone, linktwo, linkthree, linkfour, linkfive, linksix } from "../assets";
 
 // Navbar
 export const navbarData = [
@@ -85,5 +85,31 @@ export const financeCards = [
     id: uuidv4(),
     title: "Seamless Support",
     img: financethree,
+  }
+]
+export const links = [
+  {
+    id: uuidv4(),
+    img: linkone,
+  },
+  {
+    id: uuidv4(),
+    img: linktwo,
+  },
+  {
+    id: uuidv4(),
+    img: linkthree,
+  },
+  {
+    id: uuidv4(),
+    img: linkfour,
+  },
+   {
+    id: uuidv4(),
+    img: linkfive,
+  },
+   {
+    id: uuidv4(),
+    img: linksix,
   }
 ]

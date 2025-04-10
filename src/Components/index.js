@@ -5,4 +5,5 @@ export {default as Hero} from "./Hero"
 export {default as Services} from './Services'
 export {default as Market} from './Market'
 export {default as Finance} from './Finance'
+export {default as Footer} from './Footer'
 

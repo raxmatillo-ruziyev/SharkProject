@@ -1,4 +1,4 @@
-import { Finance, Header, Hero, Market, Navbar, Services, Trading } from "./Components"
+import { Finance, Footer, Header, Hero, Market, Navbar, Services, Trading } from "./Components"
 
 
 
@@ -15,6 +15,7 @@ function App() {
   <Services/>
   <Market/>
   <Finance/>
+  <Footer/>
 
 
   
