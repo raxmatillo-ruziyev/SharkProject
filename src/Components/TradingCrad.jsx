@@ -3,7 +3,7 @@ import { tradingCards } from '../data'
 
 const TradingCrad = () => {
   return (
-    <div className="grid grid-cols-3 py-5 mx-auto gap-3 max-[1000px]:border-2 max-[1000px]:border-red-500 max-[1127px]:grid-cols-2 max-[746px]:grid-cols-1" >
+    <div className="grid grid-cols-3 py-5 mx-auto gap-3 max-[1127px]:grid-cols-2 max-[746px]:grid-cols-1" >
       {
         tradingCards.map((item) => (
           <div className="border  mx-auto text-center border-gray-200 rounded-2xl py-5 px-4 w-92 max-[1137px]:w-89 max-[1127px]:w-107 max-[897px]:w-89 max-[746px]:w-[90%] max-[745px]:h-70
